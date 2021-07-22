@@ -1,0 +1,58 @@
+body {
+    background-color: #dce1de;
+}
+
+h1 {
+    color: #216869;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.section-header {
+    color: #49A078;
+}
+
+.normal-div {
+    padding: 2px;
+}
+
+.normal-text {
+    font-family: 'Oswald', sans-serif;
+    color: #1F2421;
+}
+
+.centered-list-item {
+    display: inline-block;
+    padding: 5px;
+    background-color: #49A078;
+}
+
+.center {
+    text-align: center;
+}
+
+.float-container {
+    padding: 20px;
+}
+
+.float-child {
+    width: 500px;
+    float: left;
+    padding: 20px;
+    border: 2px solid #216869;
+    margin: 50px;
+}
+
+#profile-photo {
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+

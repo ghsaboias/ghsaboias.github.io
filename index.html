@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Meu Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-    <!-- Seu nome completo; -->
-    <!-- Um link interno para a sua foto; -->
-    <div id="nome">
-        <h1><a href="#foto">Guilherme Henrique Saboia Silva</a></h1>
+    <div id="name" class="normal-div center">
+        <h1>Guilherme Henrique Saboia Silva</h1>
     </div>
 
-    <!-- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-    <div id="foto">
-        <img src="images/profile.jpg" alt="Foto de perfil do Guilherme">
-    </div>    
-
-    <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
-    <div id="index">
-        <h2>Índice</h2>
-        <ul>
-            <li><a href="#nome">Nome</a></li>
-            <li><a href="#foto">Foto</a></li>
-            <li><a href="#descricao">Descrição</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-        </ul>
+    <div id="photo" class="normal-div center">
+        <img id="profile-photo" src="images/profile.jpg" alt="Foto de perfil Guilherme">
     </div>
-
-    <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora; -->
-    <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
-    <div id="descricao">
-        <p>
-            Sou brasileiro e moro em Santana de Parnaíba - SP.<br>
-            Me formei em Economia na FEA-USP em 2020, e iniciei minha trilha em Desenvolvimento Web com a Trybe em julho de 2021.<br>
-            Sou apaixonado por <i>blockchain</i>, com destaque para a plataforma <i>Ethereum</i>.
-        </p>
-    </div>
-
-    <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-    <div id="habilidades">
-        <ul>
-            <li><strong>Python</strong></li>
-            <li>Inglês fluente, espanhol intermediário e italiano básico</li>
-            <li>Política monetária (EUA e Brasil)</li>
-            <li>Mercado Financeiro</li>
-        </ul>
-    </div>
-
-    <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-    <div id="link-bitcoin">
-        <p>
+    
+    <div id="link-bitcoin" class="normal-div center">
+        <p class="normal-text">
             Aprenda sobre <i>bitcoin</i> <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">aqui</a>!
         </p>
+    </div>    
+
+    <div id="index" class="normal-div">
+        <h2 id="index-header" class="section-header center">Índice</h2>
+        <ul id="index-list" class="normal-text center">
+            <li class="centered-list-item"><a href="#description">Descrição</a></li>
+            <li class="centered-list-item"><a href="#skills">Habilidades</a></li>
+        </ul>
+    </div>
+
+    <div class="float-container">
+        <div id="description" class="normal-div float-child">
+            <h2 class="section-header">Descrição</h2>
+            <p class="normal-text">
+                Sou <strong>brasileiro</strong> e moro em <strong>Santana de Parnaíba - SP</strong>.<br>
+                Me formei em Economia na FEA-USP em 2020, e iniciei minha trilha em Desenvolvimento Web com a Trybe em julho de 2021.<br>
+                Sou apaixonado por <i>blockchain</i>, com destaque para a plataforma <i>Ethereum</i>.
+            </p>
+        </div>
+
+        <div id="skills" class="normal-div float-child">
+            <h2 class="section-header">Habilidades</h2>
+            <ul class="normal-text">
+                <li>Python</li>
+                <li>Inglês fluente, espanhol intermediário e italiano básico</li>
+                <li>Política monetária (EUA e Brasil)</li>
+                <li>Mercado Financeiro</li>
+            </ul>
+        </div>
     </div>
 
 </body>
