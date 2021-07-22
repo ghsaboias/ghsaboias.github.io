@@ -11,12 +11,12 @@ h2 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.section-header {
-    color: #49A078;
+div {
+    padding: 2px;
 }
 
-.normal-div {
-    padding: 2px;
+.section-header {
+    color: #49A078;
 }
 
 .normal-text {
