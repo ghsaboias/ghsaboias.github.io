@@ -1,5 +1,6 @@
 body {
     background-color: #dce1de;
+    padding: 10px;
 }
 
 h1 {
@@ -24,35 +25,44 @@ div {
     color: #1F2421;
 }
 
-.centered-list-item {
-    display: inline-block;
-    padding: 5px;
-    background-color: #49A078;
-}
-
 .center {
     text-align: center;
 }
 
-.float-container {
-    padding: 20px;
-}
-
-.float-child {
+.section {
     width: 500px;
-    float: left;
     padding: 20px;
     border: 2px solid #216869;
-    margin: 50px;
+    margin: auto;
+}
+
+.border {
+    border: 2px solid green;
 }
 
 #profile-photo {
     height: 300px;
     width: 300px;
     border-radius: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    float: left;
+    padding: 10px;
+    background-color: #1F2421;
 }
 
+#main-info {
+    height: 320px;
+    width: 600px;
+    margin: auto;
+}
+
+#description {
+    margin-left: 340px;
+    margin-top: 30px;
+    width: 200px;
+    text-align: justify;
+}
+
+#skills-list li:nth-of-type(odd){
+    font-style: italic;
+}
 
