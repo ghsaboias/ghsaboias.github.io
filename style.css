@@ -62,7 +62,12 @@ div {
     text-align: justify;
 }
 
+#skills:hover {
+    transform: rotate(-0.005turn);
+}
+
 #skills-list li:nth-of-type(odd){
     font-style: italic;
 }
+
 
