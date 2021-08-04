@@ -16,6 +16,11 @@ div {
     padding: 2px;
 }
 
+header {
+    float: right;
+    margin-right: 20px;
+}
+
 .section-header {
     color: #49A078;
 }
@@ -38,6 +43,19 @@ div {
 
 .border {
     border: 2px solid green;
+}
+
+.button {
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #49A078;
+    color: #1F2421;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
 }
 
 #profile-photo {
