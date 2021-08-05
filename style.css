@@ -1,25 +1,69 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
+    margin: 0;
     background-color: #dce1de;
-    padding: 10px;
 }
 
-h1 {
-    color: #216869;
-    text-align: center;
+h1, h2, h3, h4, h5, p, span {
+    margin: 0;
+    color: #1F2421;
 }
 
-h2 {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-div {
-    padding: 2px;
+.container {
+    max-width: 1920px;
+    width: 100%;
 }
 
 header {
-    float: right;
-    margin-right: 20px;
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #49A078;
+}
+
+.name {
+    font-size: x-large;
+    line-height: 100px;
+} 
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+}
+
 
 .section-header {
     color: #49A078;
@@ -46,7 +90,7 @@ header {
 }
 
 .button {
-    border-radius: 6px;
+    border-radius: 9px;
     display: inline-block;
     padding: 10px 20px;
     background-color: #49A078;
@@ -58,13 +102,16 @@ header {
     cursor: pointer;
 }
 
+.button:hover  {
+    background-color: #216869;
+}
+
 #profile-photo {
-    height: 300px;
-    width: 300px;
-    border-radius: 300px;
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
     float: left;
-    padding: 10px;
-    background-color: #1F2421;
+    padding: 5px;
 }
 
 #main-info {
@@ -86,6 +133,5 @@ header {
 
 #skills-list li:nth-of-type(odd){
     font-style: italic;
-}
-
+} 
 
