@@ -25,7 +25,7 @@ section {
 .banner {
     position: relative;
     min-height: 100vh; /* uses viewport size as reference */
-    background-image: url(../images/network-wallpaper.jpg);
+    background-image: url(images/network-wallpaper.jpg);
     background-size: cover;
     display: flex;
     justify-content: space-between;
