@@ -154,7 +154,7 @@ header.sticky ul li a {
     margin-bottom: 10px;
 }
 
-.services {
+.holdings {
     background: #111;
 }
 
@@ -162,14 +162,14 @@ header.sticky ul li a {
     color: #fff;
 }
 
-.services .content {
+.holdings .content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.services .content .servicesBx {
+.holdings .content .holdingsBx {
     padding: 40px 20px;
     background: #222;
     color: #fff;
@@ -179,82 +179,75 @@ header.sticky ul li a {
     transition: 0.5s;
 }
 
-.services .content .servicesBx:hover {
+.holdings .content .holdingsBx:hover {
     background: #2196f3
 }
 
-.services .content .servicesBx img {
+.holdings .content .holdingsBx img {
     max-width: 80px;
 }
 
-.services .content .servicesBx h2 {
+.holdings .content .holdingsBx h2 {
     font-size: 20px;
     font-weight: 600;
 }
 
-.work .content {
+.daos .content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.work .content .workBx {
+.daos .content .daosBx {
     width: 45%;
     padding: 20px;
     margin: 10px;
 }
 
-.work .content .workBx img {
+.daos .content .daosBx img {
     max-width: 100%;
     padding: 30px;
     background: black;
 }
 
-.work .content .workBx h2 {
+.daos .content .daosBx h2 {
     margin: 10px 0;
     text-align: center;
 }
 
-.work .content .workBx p {
+.daos .content .daosBx p {
     text-align: justify;
 }
 
-.testimonial {
+.technology {
     background: #f7f7f7;
 }
 
-.testimonial .content {
+.technology .content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.testimonial .content .testimonialBx {
+.technology .content .technologyBx {
     max-width: calc(50% - 40px);
-    padding: 60px 40px;
+    padding: 50px 40px;
     margin: 20px;
     background: #2196f3;
 }
 
-.testimonial .content .testimonialBx p {
+.technology .content .technologyBx h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.technology .content .technologyBx p {
     color: #fff;
     font-style: italic;
     font-size: 16px;
     font-weight: 300;
-}
-
-.testimonial .content .testimonialBx h3 {
-    margin-top: 40px;
-    text-align: end;
-    color: #fff;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1em;
-}
-
-.testimonial .content .testimonialBx h3 span {
-    font-size: 14px;
-    font-weight: 400;
+    text-align: justify;
 }
 
 .contact {
@@ -441,22 +434,22 @@ header.sticky ul li a {
         font-size: 20px;
     }
     
-    .services .content .servicesBx {
+    .holdings .content .holdingsBx {
         margin: 10px;
     }
 
-    .work .content .workBx {
+    .daos .content .daosBx {
         width: 100%;
         padding: 10px;
     }
 
-    .testimonial .content .testimonialBx {
+    .technology .content .technologyBx {
         max-width: calc(100% - 20px);
         padding: 40px 20px;
         margin: 10px;
     }
 
-    .testimonial .content .testimonialBx  h3 {
+    .technology .content .technologyBx  h3 {
         margin-top: 20px;
     }
 
