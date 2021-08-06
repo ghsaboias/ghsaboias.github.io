@@ -124,6 +124,10 @@ header.sticky ul li a {
     background-size: 100%;
 }
 
+.about .content .contentBx p {
+    margin: 20px 0;
+}
+
 .heading {
     width: 100%;
     text-align: center;
@@ -202,7 +206,7 @@ header.sticky ul li a {
 
 .work .content .workBx img {
     max-width: 100%;
-    padding: 20px;
+    padding: 30px;
     background: black;
 }
 
