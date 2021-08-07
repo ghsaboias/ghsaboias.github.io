@@ -125,6 +125,7 @@ header.sticky ul li a {
 }
 
 .about .content .contentBx p {
+    text-align: justify;
     margin: 20px 0;
 }
 
@@ -190,6 +191,11 @@ header.sticky ul li a {
 .holdings .content .holdingsBx h2 {
     font-size: 20px;
     font-weight: 600;
+    margin: 10px 0;
+}
+
+.holdings .content .holdingsBx p {
+    text-align: justify;
 }
 
 .daos .content {
