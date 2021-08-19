@@ -206,10 +206,14 @@ header.sticky ul li a {
 
 .daos .content .daosBx {
     width: 45%;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
     text-align: center;
     color: black;
+    border-radius: 20px;
+    border-style: solid;
+    border-image: linear-gradient(45deg, var(--main-bg-color-darkest), var(--main-bg-color-lighest)) 1;
+    border-image-width: 12px;
 }
 
 .daos .content .daosBx img {
@@ -224,7 +228,8 @@ header.sticky ul li a {
 }
 
 .daos .content .daosBx p {
-    text-align: justify;
+  padding: 10px;
+  text-align: justify;
 }
 
 .technology {
