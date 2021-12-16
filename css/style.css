@@ -61,8 +61,10 @@ section {
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     letter-spacing: 2px;
     font-weight: 500;
+    max-width: 25vw;;
 }
 
 header {
